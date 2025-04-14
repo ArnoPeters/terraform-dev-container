@@ -25,5 +25,13 @@
     },
     // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
     "remoteUser": "root",
-    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "mounts": [
+        //Required to allow the devcontainer to use the WSL docker socket. 
+        {
+            "source": "\\\\wsl$\\Ubuntu\\var\\run\\docker.sock",
+            "target": "/var/run/docker.sock",
+            "type": "bind"
+        }
+    ]
 }

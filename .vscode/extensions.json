@@ -1,0 +1,47 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+  // List of extensions which should be recommended for users of this workspace.
+  // Can be found on https://marketplace.visualstudio.com/
+
+  // Tip: Use Save without formatting to keep this layout proper.
+  // CTRL+K -> CTRL+SHIFT+S or CTRL+SHIFT+P -> file: save without formatting
+  "recommendations": [
+    // //Global recommendations 
+    // "oderwat.indent-rainbow",                    // Colored indenting indicator. 
+    
+    // "EditorConfig.EditorConfig",                 // EditorConfig Support for Visual Studio Code
+    // "mhutchie.git-graph",                        // Adds Git Graph support to VScode source control
+    // "DavidAnson.vscode-markdownlint",            // Linter for Markdown. 
+    // "Gruntfuggly.todo-tree",                     // Scans your source for TODO and generates list.
+    // "wayou.vscode-todo-highlight",               // Highlights TODO in code.
+    // "hediet.vscode-drawio",                      // Draw IO within VS Code. Useful for SVG's in documentation
+    
+    // // Only in root instance
+    "ms-vscode-remote.remote-containers",        // Enable Dev Containers
+
+    // //API testing
+    // // "anweber.vscode-httpyac",                    // use document type HTTP to submit HTTP requests stored in file.
+
+    // //Azure Devops recommendations
+    // "ni.azdo-wiki-md",                           // Renders Azure Devops Markdown Wiki tags in Visual Studio Code  
+    // // "ms-azure-devops.azure-pipelines",           // Azure Devops Pipeline Yaml support. 
+    
+
+    // //Azure Recommendations
+    // // "ms-azuretools.vscode-bicep",                // Tools for Bicep templates
+    // //"msazurermtools.azurerm-vscode-tools",        // Tools for ARM templates
+
+    // //Code Recommendations
+    // "lego-education.ev3-micropython",            //EV3 extension
+    // // "ms-vscode.powershell",                      // PowerShell Language Support
+    // // "adpyke.vscode-sql-formatter",               //SQL Pretty Printer
+    // "ms-python.python",                         // Python Language Support
+    // "kevinrose.vsc-python-indent",              // Python Indentation
+    // "charliermarsh.ruff",                       // Ruff python linter
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": [
+    "humao.rest-client",                         // httpYac has better support for environments.
+  ]
+} 
