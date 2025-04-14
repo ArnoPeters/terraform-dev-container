@@ -30,7 +30,7 @@
     //     "LOCAL_WORKSPACE_FOLDER": "\\\\wsl$\\Ubuntu"
     // },
     "mounts": [
-        //Required to allow the devcontainer to use the WSL docker socket. 
+        //Required to allow the devcontainer to use the WSL docker socket, which is used by terraform in one of the samples to build a nginx docker image. 
         {
             //"source": "\\\\wsl$\\Ubuntu\\var\\run\\docker.sock",
             //"source": "\\\\wsl$\\Ubuntu\\var\\run\\docker.sock",
